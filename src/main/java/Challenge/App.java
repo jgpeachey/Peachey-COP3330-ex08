@@ -6,32 +6,28 @@
 package Challenge;
 
 /*
-Write a program that prompts for two numbers. Print the sum, difference,
-product, and quotient of those numbers as shown in the example output:
+Write a program to evenly divide pizzas. Prompt for the number of people,
+the number of pizzas, and the number of slices per pizza. Ensure that the
+number of pieces comes out even. Display the number of pieces of pizza each
+person should get. If there are leftovers, show the number of leftover pieces.
 
 Example Output:
-What is the first number? 10
-What is the second number? 5
-10 + 5 = 15
-10 - 5 = 5
-10 * 5 = 50
-10 / 5 = 2
+How many people? 8
+How many pizzas do you have? 2
+How many slices per pizza? 8
+8 people with 2 pizzas (16 slices)
+Each person gets 2 pieces of pizza.
+There are 0 leftover pieces.
 
-Constraints:
-*Values coming from users will be strings. Ensure that you convert these
-values to numbers before doing the math.
-*Keep the inputs and outputs separate from the numerical conversions and
-other processing.
-*Generate a single output statement with line breaks in the appropriate
-spots.
-
-Challenges:
+Challenges
 *Revise the program to ensure that inputs are entered as numeric values.
 Don’t allow the user to proceed if the value entered is not numeric.
-*Don’t allow the user to enter a negative number.
-*Break the program into functions that do the computations.
-*Implement this program as a GUI program that automatically updates the
-values when any value changes.
+*Alter the output so it handles pluralization properly, for example:
+"Each person gets 2 pieces of pizza." or "Each person gets 1 piece of pizza."
+Handle the output for leftover pieces appropriately as well.
+*Create a variant of the program that prompts for the number of people and
+the number of pieces each person wants, and calculate how many full pizzas
+you need to purchase.
  */
 
 public class App {
